@@ -1,0 +1,14 @@
+.section__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px;
+  
+}
+.section__item{
+    background: white;
+}
+.section__category{
+    font-size: 14px;
+    color:#768088;
+}

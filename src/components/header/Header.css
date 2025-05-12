@@ -1,0 +1,32 @@
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.header__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.header__logo{
+    font-size: 26px;
+    font-weight: 400px;
+}
+.header__item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  
+}
+.header__li{
+    font-size: 12px;
+    font-weight: 400px;
+}
+.header__item li a{
+  color: white;
+}
